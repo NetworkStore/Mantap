@@ -1,7 +1,7 @@
 # ==========================================
 # Getting
 #!/bin/bash
-# SL
+# Andre Sakti
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -70,4 +70,4 @@ echo "==============================="
 echo "Username  : $user"
 echo "Expired   : $exp4"
 echo "==============================="
-echo "Script Mof By SL"
+echo "Script Mof By Andre Sakti"
