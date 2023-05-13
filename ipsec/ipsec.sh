@@ -2,8 +2,8 @@
 # Debian 9 & 10 64bit
 # Ubuntu 18.04 & 20.04 bit
 # Centos 7 & 8 64bit 
-# Mod By SL
-# SL
+# Mod By Andre Sakti
+# Andre Sakti
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -28,7 +28,7 @@ exit 0
 fi
 # ==================================================
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/ipsec"
+akbarvpn="raw.githubusercontent.com/NetworkStore/Mantap/main/ipsec"
 
 VPN_IPSEC_PSK='myvpn'
 NET_IFACE=$(ip -o $NET_IFACE -4 route show to default | awk '{print $5}');
