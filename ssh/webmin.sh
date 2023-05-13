@@ -1,5 +1,5 @@
 #!/bin/bash
-# SL
+# Andre Sakti
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -49,7 +49,7 @@ echo "  Done Install Webmin  "
 echo "======================="
 echo "http://$IP:10000"
 echo "======================="
-echo "Script By LamVpn"
+echo "Script By Andre Sakti"
 }
 function restart () {
 echo " Restarting Webmin"
@@ -61,7 +61,7 @@ echo ""
 echo "======================="
 echo "  Done Restart Webmin  "
 echo "======================="
-echo "Script By LamVpn"
+echo "Script By Andre Sakti"
 }
 function uninstall () {
 echo " Removing Repositori Webmin"
@@ -76,7 +76,7 @@ echo ""
 echo "========================="
 echo "  Done Uninstall Webmin  "
 echo "========================="
-echo "Script By LamVpn"
+echo "Script By Andre Sakti"
 }
 if [[ "$cek" = "perl" ]]; then
 sts="${Info}"
