@@ -1,6 +1,6 @@
 #!/bin/bash
 # Open Http Puncher
-# SL
+# Andre Sakti
 # ==========================================
 # Color
 RED='\033[0;31m'
