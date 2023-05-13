@@ -1,6 +1,6 @@
 #!/bin/bash 
 # XRay Installation
-# SL Script
+# Andre Sakti Script
 # ==================================
 MYIP=$(wget -qO- ipinfo.io/ip);
 clear
@@ -41,8 +41,8 @@ chmod +x /usr/local/bin/xray
 # Make Folder XRay
 mkdir -p /var/log/xray/
 #
-wget -q -O /usr/local/bin/geosite.dat "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/grpc/geosite.dat"
-wget -q -O /usr/local/bin/geoip.dat "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/grpc/geoip.dat"
+wget -q -O /usr/local/bin/geosite.dat "https://raw.githubusercontent.com/NetworkStore/Mantap/main/grpc/geosite.dat"
+wget -q -O /usr/local/bin/geoip.dat "https://raw.githubusercontent.com/NetworkStore/Mantap/main/grpc/geoip.dat"
 
 #
 rm -rf /etc/xray/beta.json
