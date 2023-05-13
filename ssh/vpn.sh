@@ -1,5 +1,5 @@
 #!/bin/bash
-# SL
+# Andre Sakti
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -22,7 +22,7 @@ echo -e "${NC}${RED}Permission Denied!${NC}";
 echo -e "${NC}${LIGHT}Fuck You!!"
 exit 0
 fi
-# Mod By SL
+# Mod By Andre Sakti
 # ==================================================
 # Link Hosting Kalian
 akbarvpn="raw.githubusercontent.com/senowahyu62/scriptvps/main/ssh"
