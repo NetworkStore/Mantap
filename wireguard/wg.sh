@@ -2,7 +2,7 @@
 # Debian 9 & 10 64bit
 # Ubuntu 18.04 & 20.04 bit
 # Centos 7 & 8 64bit 
-# Mod By SL
+# Mod By Andre Sakti
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -27,7 +27,7 @@ exit 0
 fi
 # ==================================================
 # Link Hosting Kalian
-fisabiliyusri="raw.githubusercontent.com/fisabiliyusri/Mantap/main/wireguard"
+fisabiliyusri="raw.githubusercontent.com/NetworkStore/Mantap/main/wireguard"
 
 # Check OS version
 if [[ -e /etc/debian_version ]]; then
@@ -112,9 +112,9 @@ WG_RUNNING=$?
 
 # Tambahan
 cd /usr/bin
-wget -O addwg "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/wireguard/addwg.sh"
-wget -O delwg "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/wireguard/delwg.sh"
-wget -O renewwg "https://raw.githubusercontent.com/fisabiliyusri/Mantap/main/wireguard/renewwg.sh"
+wget -O addwg "https://raw.githubusercontent.com/NetworkStore/Mantap/main/wireguard/addwg.sh"
+wget -O delwg "https://raw.githubusercontent.com/NetworkStore/Mantap/main/wireguard/delwg.sh"
+wget -O renewwg "https://raw.githubusercontent.com/NetworkStore/Mantap/main/wireguard/renewwg.sh"
 chmod +x addwg
 chmod +x delwg
 chmod +x renewwg
