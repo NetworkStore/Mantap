@@ -1,5 +1,5 @@
 #!/bin/bash
-# SL
+# Andre Sakti
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -72,4 +72,4 @@ echo -e "Link TLS    : ${xrayvless1}"
 echo -e "========================="
 echo -e "Link No TLS : ${xrayvless2}"
 echo -e "========================="
-echo -e "Script Mod By SL"
+echo -e "Script Mod By Andre Sakti"
