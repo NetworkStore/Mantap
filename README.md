@@ -46,9 +46,9 @@ atau
 su
 ```
 
-### Link Video Tutorial Cara Install
+### Link FB
 ```html
-https://www.facebook.com/100031931503057/posts/628374871570224/?app=fbl
+https://m.facebook.com/anonymous.user.indo
 ```
 
 ## INFO TAMBAHAN , SILAHKAN DI BACA 
