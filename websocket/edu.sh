@@ -1,10 +1,10 @@
 #!/bin/bash
 # Proxy For Edukasi & Imclass
-# SL
+# Andre Sakti
 # ==========================================
 
 # Link Hosting Kalian
-akbarvpn="raw.githubusercontent.com/fisabiliyusri/Mantap/main/websocket"
+akbarvpn="raw.githubusercontent.com/NetworkStore/Mantap/main/websocket"
 
 # Getting Proxy Template
 wget -q -O /usr/local/bin/ws-nontls https://${akbarvpn}/websocket.py
