@@ -1,5 +1,5 @@
 #!/bin/bash
-# SL
+# Andre Sakti
 # ==========================================
 # Color
 RED='\033[0;31m'
@@ -84,4 +84,4 @@ echo -e "Expired     : ${exp} "
 echo -e "=========================="
 echo -e "Link SSR    : ${ssr_link}"
 echo -e "=========================="
-echo -e "Script Mod By SL"
+echo -e "Script Mod By Andre Sakti"
