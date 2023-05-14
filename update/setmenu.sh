@@ -1,13 +1,13 @@
 #!/bin/bash
 #!/bin/bash
 clear
-m="\033[0;1;36m"
-y="\033[0;1;37m"
-yy="\033[0;1;32m"
+m="\033[0;1;31m"
+y="\033[0;1;34m"
+yy="\033[0;1;36m"
 yl="\033[0;1;33m"
-wh="\033[0m"
+wh="\033[0;1;33m"
 echo -e "$y==============================================================$wh"
-echo -e "$y                   SYSTEM SETTING$wh"
+echo -e "$m                   SYSTEM SETTING$m"
 echo -e "$y==============================================================$wh"
 echo -e "$yy 1$wh.  Add Or Change Subdomain Host For VPS"
 echo -e "$yy 2$wh.  Change Port Of Some Service"
