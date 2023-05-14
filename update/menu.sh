@@ -2,9 +2,9 @@
 clear
 m="\033[0;1;36m"
 y="\033[0;1;37m"
-yy="\033[0;1;32m"
+yy="\033[0;1;34m"
 yl="\033[0;1;33m"
-wh="\033[0m"
+wh="\033[0;33m"
 echo -e "$y                  MENU UTAMA $wh"
 echo -e "$y            Script Mod By Andre Sakti $wh"
 echo -e "$y-------------------------------------------------$wh"
