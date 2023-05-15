@@ -54,21 +54,20 @@ echo -e "\e[36m━━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[0;41;37m            SCRIPT MOD BY ANDRE SAKTI                                    \E[0m"
 echo -e "\E[0;41;37m     My Telegram https://t.me/AndreSakti_Store                           \E[0m"
 echo -e "$y==========================================================================$wh"
-echo -e "$m      MENU UTAMA $m      $y┃              $m OTHER MENU $m"     
+echo -e "$m      MENU UTAMA $m              $y┃          $m OTHER MENU $m"     
 echo -e "$y==========================================================================$wh"
-echo -e "$yy 1$wh.  SSH&OpenVPN $wh      $y┃ $yy 13$wh. SLOWDNS MENU (OFF)$wh"   
-echo -e "$yy 2$wh.  L2TP$wh              $y┃ $yy 14$wh. CEK SEMUA IP PORT$wh"
-echo -e "$yy 3$wh.  PPTP$wh              $y┃ $yy 15$wh. CEK SEMUA SERVICE VPN$wh"
-echo -e "$yy 4$wh.  SSTP$wh              $y┃ $yy 16$wh. UPDATE MENU (Update)$wh"
-echo -e "$yy 5$wh.  WIREGUARD$wh         $y┃ $yy 17$wh. sl-fix Error SSLH+WS-TLS after reboot$wh"
-echo -e "$yy 6$wh.  SHADOWSOCKS$wh       $y┃ $yy 18$wh. Settings (Pengaturan)$wh"
-echo -e "$yy 7$wh.  SHADOWSOCKSR$wh      $y┃ $yy 19$wh. Exit (Keluar)$wh"
-echo -e "$yy 8$wh.  XRAY VMESS$wh        $y┃ $yy 20$wh. copyrepo (Salin Repo Script Mantap)$wh"
-echo -e "$yy 9$wh.  XRAY VLESS$wh        $y┃ $yy 21$wh. menuinfo$wh"
-echo -e "$yy 10$wh. XRAY TROJAN$wh       $y┃ $yy 22$wh. Shadowsocks Plugin (Buat Akun)$wh"
-echo -e "$yy 11$wh. TROJAN GO$wh         $y┃"
-echo -e "$yy 12$wh. XRAY GRPC$wh         $y┃"
+echo -e "$yy 1$wh.  SSH & OpenVPN $wh       $y┃ $yy 7$wh.  SHADOWSOCKSR$wh"   
+echo -e "$yy 2$wh.  L2TP$wh                 $y┃ $yy 8$wh.  XRAY VMESS$wh"
+echo -e "$yy 3$wh.  PPTP$wh                 $y┃ $yy 9$wh.  XRAY VLESS$wh"
+echo -e "$yy 4$wh.  SSTP$wh                 $y┃ $yy 10$wh. XRAY TROJAN$wh"
+echo -e "$yy 5$wh.  WIREGUARD$wh            $y┃ $yy 11$wh. TROJAN GO$wh"
+echo -e "$yy 6$wh.  SHADOWSOCKS$wh          $y┃ $yy 12$wh. XRAY GRPC$wh"
 echo -e "$y==========================================================================$wh"
+echo -e "$yy 13$wh. SLOWDNS MENU (OFF)$wh   $y┃ $yy 18$wh. Settings (Pengaturan)$wh"
+echo -e "$yy 14$wh. CEK SEMUA IP PORT$wh    $y┃ $yy 19$wh. Exit (Keluar)$wh"
+echo -e "$yy 15$wh. CEK ALL SERVICE VPN$wh  $y┃ $yy 20$wh. copyrepo (Salin Repo Script Mantap)$wh"
+echo -e "$yy 16$wh. UPDATE MENU (Update)$wh $y┃ $yy 21$wh. menuinfo$wh"
+echo -e "$yy 17$wh. Shadowsocks Plugin$wh   $y┃ $yy 22$wh. sl-fix Error SSLH+WS-TLS after reboot$wh"
 read -p "Select From Options [ 1 - 22 ] : " menu
 case $menu in
 1)
@@ -137,7 +136,7 @@ updatemenu
 ;;
 17)
 clear
-sl-fix
+addss-p
 ;;
 18)
 clear
@@ -157,7 +156,7 @@ menuinfo
 ;;
 22)
 clear
-addss-p
+sl-fix
 ;;
 *)
 clear
