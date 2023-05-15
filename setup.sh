@@ -38,6 +38,8 @@ akbarvpnnnnnnnn="raw.githubusercontent.com/NetworkStore/Mantap/main/backup"
 akbarvpnnnnnnnnn="raw.githubusercontent.com/NetworkStore/Mantap/main/websocket"
 # Link Hosting Kalian Untuk Ohp
 akbarvpnnnnnnnnnn="raw.githubusercontent.com/NetworkStore/Mantap/main/ohp"
+# Link Hosting Kalian Untuk Ohp
+akbarvpnnnnnnnnnnn="raw.githubusercontent.com/NetworkStore/Mantap/main/cek-bandwidth"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
@@ -70,6 +72,8 @@ wget https://${akbarvpnnnnnnnn}/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 wget https://${akbarvpnnnnnnnnn}/edu.sh && chmod +x edu.sh && ./edu.sh
 # Ohp Server
 wget https://${akbarvpnnnnnnnnnn}/ohp.sh && chmod +x ohp.sh && ./ohp.sh
+# cek-bandwidth
+wget https://${akbarvpnnnnnnnnnnn}/ohp.sh && chmod +x cek-bandwidth.sh && ./cek-bandwidth.sh
 # Install SlowDNS
 wget https://raw.githubusercontent.com/NetworkStore/Mantap/main/SLDNS/install-sldns && chmod +x install-sldns && ./install-sldns
 # Informasi IP Saya dan Semua Port TCP UDP
@@ -82,7 +86,6 @@ wget https://raw.githubusercontent.com/NetworkStore/Mantap/main/SLDNS/install-sl
 # install shadowsocks plugin
 # wget https://raw.githubusercontent.com/NetworkStore/Mantap/main/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
 # install cek-bandwidht
-wget https://raw.githubusercontent.com/NetworkStore/Mantap/main/cek-bandwidth.sh && chmod +x cek-bandwidth.sh && ./cek-bandwidth.sh
 
 rm -f /root/ssh-vpn.sh
 rm -f /root/sstp.sh
@@ -94,11 +97,11 @@ rm -f /root/ipsec.sh
 rm -f /root/set-br.sh
 rm -f /root/edu.sh
 rm -f /root/ohp.sh
+rm -f /root/cek-bandwidth.sh
 rm -f /root/install
 rm -f /root/sl-grpc.sh
 rm -f /root/install-sldns
 rm -f /root/install-ss-plugin.sh
-rm -f /root/cek-bandwidth.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
 Description=autosetting
