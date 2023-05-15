@@ -5,6 +5,36 @@ y="\033[0;1;34m"
 yy="\033[0;1;36m"
 yl="\033[0;1;37m"
 wh="\033[0;1;33m"
+#information
+OK="${GREEN}[OK]${NC}"
+Error="${RED}[Mistake]${NC}"
+#pkg install ncurses-utils
+#echo -e "Getting Information Please Wait...."
+is_root() {
+    if [ 0 == $UID ]; then
+        echo -e "${OK} ${NC} The current user is the root user..${NC}"
+        sleep 1
+        echo -e "Getting Information...."
+    else
+        echo -e "${Error} ${NC} Please switch to the root user and execute start-menu again ${NC}"
+        exit 1
+    fi
+}
+is_root
+#pkg install ncurses-utils
+ip=$(wget -qO- ipinfo.io/ip)
+domainhost=$(cat /root/domain)
+region=$(wget -qO- ipinfo.io/region)
+isp=$(wget -qO- ipinfo.io/org)
+timezone=$(wget -qO- ipinfo.io/timezone)
+ossys=$(neofetch | grep "OS" | cut -d: -f2 | sed 's/ //g')
+host=$(neofetch | grep "Host" | cut -d: -f2 | sed 's/ //g')
+kernel=$(neofetch | grep "Kernel" | cut -d: -f2 | sed 's/ //g')
+uptime=$(neofetch | grep "Uptime" | cut -d: -f2 | sed 's/ //g')
+cpu=$(neofetch | grep "CPU" | cut -d: -f2 | sed 's/ //g')
+memory=$(neofetch | grep "Memory" | cut -d: -f2 | sed 's/ //g')
+echo -e "Getting Information..."
+clear
 echo -e "\e[36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"   
 echo -e "\E[0;41;37m              System Information                 \E[0m"
 echo -e "\e[36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"   
