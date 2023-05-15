@@ -148,10 +148,6 @@ setmenu
 19)
 clear
 exit
-#;;
-#20)
-#clear
-#copyrepo
 ;;
 20)
 clear
@@ -170,3 +166,7 @@ clear
 menu
 ;;
 esac
+#;;
+#20)
+#clear
+#copyrepo
