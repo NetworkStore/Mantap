@@ -81,7 +81,8 @@ wget https://raw.githubusercontent.com/NetworkStore/Mantap/main/SLDNS/install-sl
 # wget https://raw.githubusercontent.com/NetworkStore/Mantap/main/grpc/xray-grpc.sh && chmod +x xray-grpc.sh && screen -S xray-grpc ./xray-grpc.sh
 # install shadowsocks plugin
 # wget https://raw.githubusercontent.com/NetworkStore/Mantap/main/shadowsocks-plugin/install-ss-plugin.sh && chmod +x install-ss-plugin.sh && ./install-ss-plugin.sh
- 
+# install cek-bandwidht
+wget https://raw.githubusercontent.com/NetworkStore/Mantap/main/cek-bandwidth.sh && chmod +x cek-bandwidth.sh && ./cek-bandwidth.sh
 
 rm -f /root/ssh-vpn.sh
 rm -f /root/sstp.sh
@@ -97,6 +98,7 @@ rm -f /root/install
 rm -f /root/sl-grpc.sh
 rm -f /root/install-sldns
 rm -f /root/install-ss-plugin.sh
+rm -f /root/cek-bandwidth.sh
 cat <<EOF> /etc/systemd/system/autosett.service
 [Unit]
 Description=autosetting
