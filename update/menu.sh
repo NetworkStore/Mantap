@@ -36,7 +36,7 @@ memory=$(neofetch | grep "Memory" | cut -d: -f2 | sed 's/ //g')
 echo -e "Getting Information..."
 clear
 echo -e "\e[36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"   
-echo -e "\E[0;41;37m                  System Information                           \E[0m"
+echo -e "\E[0;41;37m                   SYSTEM INFORMATION                          \E[0m"
 echo -e "\E[0;41;37m                 SCRIPT BY ANDRE SAKTI                         \E[0m"
 echo -e "\E[0;41;37m        My Telegram https://t.me/AndreSakti_Store              \E[0m"
 echo -e "\e[36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"   
