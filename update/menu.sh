@@ -54,7 +54,7 @@ echo -e "\e[36m━━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[0;41;37m            SCRIPT MOD BY ANDRE SAKTI                                    \E[0m"
 echo -e "\E[0;41;37m     My Telegram https://t.me/AndreSakti_Store                           \E[0m"
 echo -e "$y==========================================================================$wh"
-echo -e "$m      MENU UTAMA $m      $y┃      OTHER MENU $m"     
+echo -e "$m      MENU UTAMA $m      $y┃              $m OTHER MENU $m"     
 echo -e "$y==========================================================================$wh"
 echo -e "$yy 1$wh.  SSH&OpenVPN $wh      $y┃ $yy 13$wh. SLOWDNS MENU (OFF)$wh"   
 echo -e "$yy 2$wh.  L2TP$wh              $y┃ $yy 14$wh. CEK SEMUA IP PORT$wh"
