@@ -5,7 +5,6 @@ cyan='\x1b[96m'
 white='\x1b[37m'
 bold='\033[1m'
 off='\x1b[m'
-
 clear
 echo -e ""
 echo -e "${cyan}======================================${off}"
