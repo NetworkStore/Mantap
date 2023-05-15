@@ -6,17 +6,17 @@ yy="\033[0;1;36m"
 yl="\033[0;1;37m"
 wh="\033[0;1;33m"
 #information
-OK="${GREEN}[OK]${NC}"
-Error="${RED}[Mistake]${NC}"
+OK="${yy}[OK]${yl}"
+Error="${m}[Mistake]${yl}"
 #pkg install ncurses-utils
 #echo -e "Getting Information Please Wait...."
 is_root() {
     if [ 0 == $UID ]; then
-        echo -e "${OK} ${NC} The current user is the root user..${NC}"
+        echo -e "${OK} ${yl} The current user is the root user..${yl}"
         sleep 1
         echo -e "Getting Information...."
     else
-        echo -e "${Error} ${NC} Please switch to the root user and execute start-menu again ${NC}"
+        echo -e "${Error} ${yl} Please switch to the root user and execute start-menu again ${yl}"
         exit 1
     fi
 }
