@@ -31,7 +31,7 @@ echo -e "     9 ⸩   Lihat Penggunaan Aktif Saat Ini"
 
 echo -e "    10 ⸩   Lihat Trafik Penggunaan Aktif Saat Ini [5s]"
 
-echo -e "     x ⸩   Menu"
+echo -e "    11 ⸩   Menu"
 echo -e "${off}"
 echo -e "${yy}======================================${yy}"
 echo -e "${wh}"
@@ -170,7 +170,7 @@ echo -e "${yy}======================================${yy}"
 echo -e "$baris2" | lolcat
 ;;
 
-x)
+11)
 sleep 1
 menu
 ;;
