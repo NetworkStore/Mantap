@@ -49,7 +49,7 @@ vnstat
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2" | lolcat
+echo -e "$baris2 $yy|" lolcat
 ;;
 
 2)
@@ -62,7 +62,7 @@ vnstat -5
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2" | lolcat
+echo -e "$baris2 $yy|" lolcat
 ;;
 
 3)
@@ -75,7 +75,7 @@ vnstat -h
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2" | lolcat
+echo -e "$baris2 $yy|" lolcat
 ;;
 
 4)
@@ -88,7 +88,7 @@ vnstat -d
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2" | lolcat
+echo -e "$baris2 $yy|" lolcat
 ;;
 
 5)
@@ -101,7 +101,7 @@ vnstat -m
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2" | lolcat
+echo -e "$baris2 $yy|" lolcat
 ;;
 
 6)
@@ -114,7 +114,7 @@ vnstat -y
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2" | lolcat
+echo -e "$baris2 $yy|" lolcat
 ;;
 
 7)
@@ -127,7 +127,7 @@ vnstat -t
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2" | lolcat
+echo -e "$baris2 $yy|" lolcat
 ;;
 
 8)
@@ -140,7 +140,7 @@ vnstat -hg
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2" | lolcat
+echo -e "$baris2 $yy|" lolcat
 ;;
 
 9)
@@ -154,7 +154,7 @@ vnstat -l
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2" | lolcat
+echo -e "$baris2 $yy|" lolcat
 ;;
 
 10)
@@ -167,7 +167,7 @@ vnstat -tr
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2" | lolcat
+echo -e "$baris2 $yy|" lolcat
 ;;
 
 11)
