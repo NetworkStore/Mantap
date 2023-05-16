@@ -8,7 +8,7 @@ wh="\033[0;1;33m"
 clear
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e        "           BANDWITH MONITOR " | lolcat
+echo -e        "           BANDWITH MONITOR  $yy|" lolcat
 echo -e "${yy}======================================${yy}"
 echo -e "${wh}"
 echo -e "     1 ⸩   Lihat Total Bandwith Tersisa"
@@ -41,7 +41,7 @@ echo -e "${off}"
 case $noo in
 1)
 echo -e "${yy}======================================${yy}"
-echo -e "    TOTAL BANDWITH SERVER TERSISA" | lolcat
+echo -e "    TOTAL BANDWITH SERVER TERSISA $yy|" lolcat
 echo -e "${yy}======================================${yy}"
 echo -e ""
 
@@ -54,7 +54,7 @@ echo -e "$baris2" | lolcat
 
 2)
 echo -e "${yy}======================================${yy}"
-echo -e "  PENGGUNAAN BANDWITH SETIAP 5 MENIT" | lolcat
+echo -e "  PENGGUNAAN BANDWITH SETIAP 5 MENIT $yy|" lolcat
 echo -e "${yy}======================================${yy}"
 echo -e ""
 
@@ -67,7 +67,7 @@ echo -e "$baris2" | lolcat
 
 3)
 echo -e "${yy}======================================${yy}"
-echo -e "    PENGGUNAAN BANDWITH SETIAP JAM" | lolcat
+echo -e "    PENGGUNAAN BANDWITH SETIAP JAM $yy|" lolcat
 echo -e "${yy}======================================${yy}"
 echo -e ""
 
@@ -80,7 +80,7 @@ echo -e "$baris2" | lolcat
 
 4)
 echo -e "${yy}======================================${yy}"
-echo -e "   PENGGUNAAN BANDWITH SETIAP HARI" | lolcat
+echo -e "   PENGGUNAAN BANDWITH SETIAP HARI $yy|" lolcat
 echo -e "${yy}======================================${yy}"
 echo -e ""
 
@@ -93,7 +93,7 @@ echo -e "$baris2" | lolcat
 
 5)
 echo -e "${yy}======================================${yy}"
-echo -e "   PENGGUNAAN BANDWITH SETIAP BULAN" | lolcat
+echo -e "   PENGGUNAAN BANDWITH SETIAP BULAN $yy|" lolcat
 echo -e "${CYAN}======================================${CYAN}"
 echo -e ""
 
@@ -106,7 +106,7 @@ echo -e "$baris2" | lolcat
 
 6)
 echo -e "${yy}======================================${yy}"
-echo -e "   PENGGUNAAN BANDWITH SETIAP TAHUN" | lolcat
+echo -e "   PENGGUNAAN BANDWITH SETIAP TAHUN $yy|" lolcat
 echo -e "${yy}======================================${yy}"
 echo -e ""
 
@@ -119,7 +119,7 @@ echo -e "$baris2" | lolcat
 
 7)
 echo -e "${yy}======================================${yy}"
-echo -e "    PENGGUNAAN BANDWITH TERTINGGI" | lolcat
+echo -e "    PENGGUNAAN BANDWITH TERTINGGI $yy|" lolcat
 echo -e "${yy}======================================${yy}"
 echo -e ""
 
@@ -132,7 +132,7 @@ echo -e "$baris2" | lolcat
 
 8)
 echo -e "${yy}======================================${yy}"
-echo -e " GRAFIK BANDWITH TERPAKAI SETIAP JAM" | lolcat
+echo -e " GRAFIK BANDWITH TERPAKAI SETIAP JAM $yy|" lolcat
 echo -e "${yy}======================================${yy}"
 echo -e ""
 
@@ -145,7 +145,7 @@ echo -e "$baris2" | lolcat
 
 9)
 echo -e "${yy}======================================${yy}"
-echo -e "  LIVE PENGGUNAAN BANDWITH SAAT INI" | lolcat
+echo -e "  LIVE PENGGUNAAN BANDWITH SAAT INI $yy|" lolcat
 echo -e "${yy}======================================${yy}"
 echo -e " ${GREEN}CTRL+C Untuk Berhenti!${off}"
 echo -e ""
@@ -159,7 +159,7 @@ echo -e "$baris2" | lolcat
 
 10)
 echo -e "${yy}======================================${yy}"
-echo -e "   LIVE TRAFIK PENGGUNAAN BANDWITH " | lolcat
+echo -e "   LIVE TRAFIK PENGGUNAAN BANDWITH  $yy|" lolcat
 echo -e "${yy}======================================${yy}"
 echo -e ""
 
