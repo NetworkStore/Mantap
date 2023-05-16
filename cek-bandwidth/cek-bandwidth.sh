@@ -41,7 +41,7 @@ echo -e "${off}"
 case $noo in
 1)
 echo -e "${yy}======================================${yy}"
-echo -e "    TOTAL BANDWITH SERVER TERSISA $yy|" lolcat
+echo -e "    TOTAL BANDWITH SERVER TERSISA $yy|"
 echo -e "${yy}======================================${yy}"
 echo -e ""
 
@@ -49,12 +49,12 @@ vnstat
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2 $yy|" lolcat
+echo -e "$baris2 $yy|"
 ;;
 
 2)
 echo -e "${yy}======================================${yy}"
-echo -e "  PENGGUNAAN BANDWITH SETIAP 5 MENIT $yy|" lolcat
+echo -e "  PENGGUNAAN BANDWITH SETIAP 5 MENIT $yy|"
 echo -e "${yy}======================================${yy}"
 echo -e ""
 
@@ -62,12 +62,12 @@ vnstat -5
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2 $yy|" lolcat
+echo -e "$baris2 $yy|"
 ;;
 
 3)
 echo -e "${yy}======================================${yy}"
-echo -e "    PENGGUNAAN BANDWITH SETIAP JAM $yy|" lolcat
+echo -e "    PENGGUNAAN BANDWITH SETIAP JAM $yy|"
 echo -e "${yy}======================================${yy}"
 echo -e ""
 
@@ -75,12 +75,12 @@ vnstat -h
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2 $yy|" lolcat
+echo -e "$baris2 $yy|"
 ;;
 
 4)
 echo -e "${yy}======================================${yy}"
-echo -e "   PENGGUNAAN BANDWITH SETIAP HARI $yy|" lolcat
+echo -e "   PENGGUNAAN BANDWITH SETIAP HARI $yy|"
 echo -e "${yy}======================================${yy}"
 echo -e ""
 
@@ -88,12 +88,12 @@ vnstat -d
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2 $yy|" lolcat
+echo -e "$baris2 $yy|"
 ;;
 
 5)
 echo -e "${yy}======================================${yy}"
-echo -e "   PENGGUNAAN BANDWITH SETIAP BULAN $yy|" lolcat
+echo -e "   PENGGUNAAN BANDWITH SETIAP BULAN $yy|"
 echo -e "${CYAN}======================================${CYAN}"
 echo -e ""
 
@@ -101,12 +101,12 @@ vnstat -m
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2 $yy|" lolcat
+echo -e "$baris2 $yy|"
 ;;
 
 6)
 echo -e "${yy}======================================${yy}"
-echo -e "   PENGGUNAAN BANDWITH SETIAP TAHUN $yy|" lolcat
+echo -e "   PENGGUNAAN BANDWITH SETIAP TAHUN $yy|"
 echo -e "${yy}======================================${yy}"
 echo -e ""
 
@@ -114,12 +114,12 @@ vnstat -y
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2 $yy|" lolcat
+echo -e "$baris2 $yy|"
 ;;
 
 7)
 echo -e "${yy}======================================${yy}"
-echo -e "    PENGGUNAAN BANDWITH TERTINGGI $yy|" lolcat
+echo -e "    PENGGUNAAN BANDWITH TERTINGGI $yy|"
 echo -e "${yy}======================================${yy}"
 echo -e ""
 
@@ -127,12 +127,12 @@ vnstat -t
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2 $yy|" lolcat
+echo -e "$baris2 $yy|"
 ;;
 
 8)
 echo -e "${yy}======================================${yy}"
-echo -e " GRAFIK BANDWITH TERPAKAI SETIAP JAM $yy|" lolcat
+echo -e " GRAFIK BANDWITH TERPAKAI SETIAP JAM $yy|"
 echo -e "${yy}======================================${yy}"
 echo -e ""
 
@@ -140,12 +140,12 @@ vnstat -hg
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2 $yy|" lolcat
+echo -e "$baris2 $yy|"
 ;;
 
 9)
 echo -e "${yy}======================================${yy}"
-echo -e "  LIVE PENGGUNAAN BANDWITH SAAT INI $yy|" lolcat
+echo -e "  LIVE PENGGUNAAN BANDWITH SAAT INI $yy|"
 echo -e "${yy}======================================${yy}"
 echo -e " ${GREEN}CTRL+C Untuk Berhenti!${off}"
 echo -e ""
@@ -154,12 +154,12 @@ vnstat -l
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2 $yy|" lolcat
+echo -e "$baris2 $yy|"
 ;;
 
 10)
 echo -e "${yy}======================================${yy}"
-echo -e "   LIVE TRAFIK PENGGUNAAN BANDWITH  $yy|" lolcat
+echo -e "   LIVE TRAFIK PENGGUNAAN BANDWITH  $yy|"
 echo -e "${yy}======================================${yy}"
 echo -e ""
 
@@ -167,7 +167,7 @@ vnstat -tr
 
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e "$baris2 $yy|" lolcat
+echo -e "$baris2 $yy|"
 ;;
 
 11)
