@@ -1,19 +1,16 @@
 #!/bin/bash
-RED='\033[0;31m'
-NC='\033[0m'
-GREEN='\033[0;32m'
-ORANGE='\033[0;33m'
-BLUE='\033[0;34m'
-PURPLE='\033[0;35m'
-CYAN='\033[0;36m'
-LIGHT='\033[0;37m'
+m="\033[0;1;31m"
+y="\033[0;1;34m"
+yy="\033[0;1;36m"
+yl="\033[0;1;33m"
+wh="\033[0;1;33m"
 
 clear
 echo -e ""
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e        "           BANDWITH MONITOR " | lolcat
-echo -e "${CYAN}======================================${CYAN}"
-echo -e "${GREEN}"
+echo -e "${yy}======================================${yy}"
+echo -e "${wh}"
 echo -e "     1 ⸩   Lihat Total Bandwith Tersisa"
 
 echo -e "     2 ⸩   Tabel Penggunaan Setiap 5 Menit"
@@ -36,66 +33,66 @@ echo -e "    10 ⸩   Lihat Trafik Penggunaan Aktif Saat Ini [5s]"
 
 echo -e "     x ⸩   Menu"
 echo -e "${off}"
-echo -e "${CYAN}======================================${CYAN}"
-echo -e "${GREEN}"
+echo -e "${yy}======================================${yy}"
+echo -e "${wh}"
 read -p "     [#]  Masukkan Nomor :  " noo
 echo -e "${off}"
 
 case $noo in
 1)
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "    TOTAL BANDWITH SERVER TERSISA" | lolcat
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e ""
 
 vnstat
 
 echo -e ""
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "$baris2" | lolcat
 ;;
 
 2)
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "  PENGGUNAAN BANDWITH SETIAP 5 MENIT" | lolcat
-echo -e "${cyan}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e ""
 
 vnstat -5
 
 echo -e ""
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "$baris2" | lolcat
 ;;
 
 3)
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "    PENGGUNAAN BANDWITH SETIAP JAM" | lolcat
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e ""
 
 vnstat -h
 
 echo -e ""
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "$baris2" | lolcat
 ;;
 
 4)
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "   PENGGUNAAN BANDWITH SETIAP HARI" | lolcat
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e ""
 
 vnstat -d
 
 echo -e ""
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "$baris2" | lolcat
 ;;
 
 5)
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "   PENGGUNAAN BANDWITH SETIAP BULAN" | lolcat
 echo -e "${CYAN}======================================${CYAN}"
 echo -e ""
@@ -103,73 +100,73 @@ echo -e ""
 vnstat -m
 
 echo -e ""
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "$baris2" | lolcat
 ;;
 
 6)
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "   PENGGUNAAN BANDWITH SETIAP TAHUN" | lolcat
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e ""
 
 vnstat -y
 
 echo -e ""
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "$baris2" | lolcat
 ;;
 
 7)
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "    PENGGUNAAN BANDWITH TERTINGGI" | lolcat
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e ""
 
 vnstat -t
 
 echo -e ""
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "$baris2" | lolcat
 ;;
 
 8)
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e " GRAFIK BANDWITH TERPAKAI SETIAP JAM" | lolcat
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e ""
 
 vnstat -hg
 
 echo -e ""
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "$baris2" | lolcat
 ;;
 
 9)
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "  LIVE PENGGUNAAN BANDWITH SAAT INI" | lolcat
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e " ${GREEN}CTRL+C Untuk Berhenti!${off}"
 echo -e ""
 
 vnstat -l
 
 echo -e ""
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "$baris2" | lolcat
 ;;
 
 10)
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "   LIVE TRAFIK PENGGUNAAN BANDWITH " | lolcat
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e ""
 
 vnstat -tr
 
 echo -e ""
-echo -e "${CYAN}======================================${CYAN}"
+echo -e "${yy}======================================${yy}"
 echo -e "$baris2" | lolcat
 ;;
 
@@ -180,7 +177,7 @@ menu
 
 *)
 sleep 1
-echo -e "${RED}Nomor Yang Anda Masukkan Salah!${CYAN}"
+echo -e "${m}Nomor Yang Anda Masukkan Salah!${yy}"
 ;;
 esac
 read -n 1 -s -r -p "Press any key to back on menu"
