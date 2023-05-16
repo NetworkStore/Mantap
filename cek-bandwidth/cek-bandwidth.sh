@@ -8,7 +8,7 @@ wh="\033[0;1;33m"
 clear
 echo -e ""
 echo -e "${yy}======================================${yy}"
-echo -e        "           BANDWITH MONITOR  $yy|" lolcat
+echo -e        "           BANDWITH MONITOR  $yy|"
 echo -e "${yy}======================================${yy}"
 echo -e "${wh}"
 echo -e "     1 ⸩   Lihat Total Bandwith Tersisa"
