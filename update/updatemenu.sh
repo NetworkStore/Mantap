@@ -21,6 +21,7 @@ rm -rf trgomenu
 rm -rf setmenu
 rm -rf slowdnsmenu
 rm -rf running
+rm -rf cek-bandwidth
 rm -rf copyrepo
 
 # download menu
@@ -59,7 +60,8 @@ wget -O copyrepo "https://raw.githubusercontent.com/NetworkStore/Mantap/main/sal
 wget -O slhost "https://raw.githubusercontent.com/NetworkStore/Mantap/main/ssh/slhost.sh"
 wget -O sl-download-info "https://raw.githubusercontent.com/NetworkStore/Mantap/main/contohinfo/sl-download-info.sh"
 wget -O menuinfo "https://raw.githubusercontent.com/NetworkStore/Mantap/main/update/menuinfo.sh"
-wget -O install-ss-plugin "https://raw.githubusercontent.com/NetworkStore/Mantap/main/shadowsocks-plugin/install-ss-plugin.sh"
+wget -O menuinfo "https://raw.githubusercontent.com/NetworkStore/Mantap/main/update/menuinfo.sh"
+wget -O cek-bandwidth "https://raw.githubusercontent.com/NetworkStore/Mantap/main/cek-bandwidth/cek-bandwidth.sh"
 
 chmod +x install-ss-plugin
 chmod +x xray-grpc
@@ -93,6 +95,7 @@ chmod +x setmenu
 chmod +x slowdnsmenu
 chmod +x running
 chmod +x updatemenu
+chmod +x cek-bandwidth
 sl-download-info
 #install-sldns
 #install-ss-plugin
