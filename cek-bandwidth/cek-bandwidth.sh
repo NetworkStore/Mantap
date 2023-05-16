@@ -31,9 +31,7 @@ echo -e "     9 ⸩   Lihat Penggunaan Aktif Saat Ini"
 
 echo -e "    10 ⸩   Lihat Trafik Penggunaan Aktif Saat Ini [5s]"
 
-echo -e "    11 ⸩   Kembali ke Menu Bandwidth"
-
-echo -e "    12 ⸩   Menu"
+echo -e "    11 ⸩   Menu"
 echo -e "${off}"
 echo -e "\e[36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"   
 echo -e "${wh}"
