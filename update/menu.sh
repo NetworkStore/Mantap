@@ -69,7 +69,7 @@ echo -e "$yy 13$wh. SLOWDNS MENU (OFF)$wh    $y┃$yy 18$wh. Settings (Pengatura
 echo -e "$yy 14$wh. CEK SEMUA IP PORT$wh     $y┃$yy 19$wh. Exit (Keluar)$wh"
 echo -e "$yy 15$wh. CEK ALL SERVICE VPN$wh   $y┃$yy 20$wh. Cek Dandwidth$wh"
 echo -e "$yy 16$wh. UPDATE MENU (Update)$wh  $y┃$yy 21$wh. Menu Info$wh"
-echo -e "$yy 17$wh. Shadowsocks Plugin$wh    $y┃$yy 22$wh. sl-fix $whError$wh SSLH+WS-TLS$wh"
+echo -e "$yy 17$wh. Shadowsocks Plugin$wh    $y┃$yy 22$wh. Untuk Fix Error SSLH+WS-TLS$wh"
 echo -e "$yy==============================================================$wh"
 read -p "Select From Options [ 1 - 22 ] : " menu
 case $menu in
