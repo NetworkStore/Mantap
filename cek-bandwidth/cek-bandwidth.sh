@@ -171,11 +171,6 @@ echo -e "$baris2 $yy|"
 ;;
 
 11)
-
-cek-bandwidth
-;;
-
-12)
 sleep 1
 menu
 ;;
