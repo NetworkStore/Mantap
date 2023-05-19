@@ -41,7 +41,7 @@ echo -e "\E[0;41;37m                 SCRIPT BY ANDRE SAKTI                      
 echo -e "\E[0;41;37m        My Telegram https://t.me/AndreSakti_Store              \E[0m"
 echo -e "\e[36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"   
 echo -e "$yy IP Address :$yl $ip $yl"
-echo -e "$yy Domain :$yl $Domen"
+echo -e "$yy Domain :$yl $Domainhost $y"
 echo -e "$yy City :$yl $region $yl"
 echo -e "$yy ISP :$yl $isp $yl"
 #echo -e "$yy Host :$yl $host $yl"
