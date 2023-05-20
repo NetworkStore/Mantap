@@ -69,7 +69,7 @@ echo -e "$yy 13$wh. SLOWDNS MENU (OFF)$wh    $y┃$yy 18$wh. SETTINGS (Pengatura
 echo -e "$yy 14$wh. CEK SEMUA IP PORT$wh     $y┃$yy 19$wh. EXIT (Keluar)$wh"
 echo -e "$yy 15$wh. CEK ALL SERVICE VPN$wh   $y┃$yy 20$wh. CEK BANDWIDTH$wh"
 echo -e "$yy 16$wh. UPDATE MENU (Update)$wh  $y┃$yy 21$wh. MENU INFO$wh"
-echo -e "$yy 17$wh. SHADOWSHOCKS PLUGIN$wh    $y┃$yy 22$wh. PERBAIKI ERROR SSLH+WS-TLS$wh"
+echo -e "$yy 17$wh. SHADOWSHOCKS PLUGIN$wh   $y┃$yy 22$wh. PERBAIKI ERROR SSLH+WS-TLS$wh"
 echo -e "$yy==============================================================$wh"
 read -p "Select From Options [ 1 - 22 ] : " menu
 case $menu in
