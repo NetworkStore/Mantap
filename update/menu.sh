@@ -42,7 +42,7 @@ echo -e "\e[36m━━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[0;41;37m                     SYSTEM INFORMATION                        \E[0m"
 echo -e "\E[0;41;37m                   SCRIPT BY ANDRE SAKTI                       \E[0m"
 echo -e "\e[36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"   
-echo -e "$yy IP Address  :$yl $ip $yl"
+echo -e "$yy IP Address  :$xz $ip $xz"
 #echo -e "$yy Domain     :$yl $domainhost $yl"
 echo -e "$yy Domain      :$yl $Domen $yl"
 echo -e "$yy City        :$yl $region $yl"
