@@ -24,6 +24,8 @@ is_root
 #pkg install ncurses-utils
 ip=$(wget -qO- ipinfo.io/ip)
 domainhost=$(cat /root/domain)
+# GETTING DOMAIN NAME
+Domen=$(cat /etc/xray/domain)
 region=$(wget -qO- ipinfo.io/region)
 isp=$(wget -qO- ipinfo.io/org)
 timezone=$(wget -qO- ipinfo.io/timezone)
@@ -40,7 +42,8 @@ echo -e "\E[0;41;37m                   SYSTEM INFORMATION                       
 echo -e "\E[0;41;37m                 SCRIPT BY ANDRE SAKTI                         \E[0m"
 echo -e "\e[36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"   
 echo -e "$yy IP Address  :$yl $ip $yl"
-echo -e "$yy Domain      :$yl $domainhost $yl"
+#echo -e "$yy Domain     :$yl $domainhost $yl"
+echo -e "$yy Domain      :$yl $Domen $yl"
 echo -e "$yy City        :$yl $region $yl"
 echo -e "$yy ISP         :$yl $isp $yl"
 #echo -e "$yy Host       :$yl $host $yl"
