@@ -36,6 +36,7 @@ rm -rf add-ssws
 wget -O install-sldns "https://raw.githubusercontent.com/NetworkStore/Mantap/main/SLDNS/install-sldns"
 wget -O restart "https://raw.githubusercontent.com/NetworkStore/Mantap/main/ssh/restart.sh"
 wget -O addssh "https://raw.githubusercontent.com/NetworkStore/Mantap/main/ssh/addssh.sh"
+wget -O add-ssws "https://raw.githubusercontent.com/NetworkStore/Mantap/main/ssh/add-ssws.sh"
 wget -O menu "https://raw.githubusercontent.com/NetworkStore/Mantap/main/update/menu.sh"
 wget -O ipsaya "https://raw.githubusercontent.com/NetworkStore/Mantap/main/update/ipsaya.sh"
 wget -O sl-fix "https://raw.githubusercontent.com/NetworkStore/Mantap/main/sslh-fix/sl-fix"
@@ -63,7 +64,7 @@ wget -O sl-download-info "https://raw.githubusercontent.com/NetworkStore/Mantap/
 wget -O menuinfo "https://raw.githubusercontent.com/NetworkStore/Mantap/main/update/menuinfo.sh"
 wget -O menuinfo "https://raw.githubusercontent.com/NetworkStore/Mantap/main/update/menuinfo.sh"
 wget -O cek-bandwidth "https://raw.githubusercontent.com/NetworkStore/Mantap/main/cek-bandwidth/cek-bandwidth.sh"
-wget -O vmessws-menu.sh "https://raw.githubusercontent.com/NetworkStore/Mantap/main/cek-bandwidth/vmessws-menu.sh"
+wget -O vmessws-menu "https://raw.githubusercontent.com/NetworkStore/Mantap/main/cek-bandwidth/vmessws-menu.sh"
 
 chmod +x install-ss-plugin
 chmod +x xray-grpc
