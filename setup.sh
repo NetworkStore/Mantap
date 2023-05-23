@@ -38,6 +38,7 @@ akbarvpnnnnnnnn="raw.githubusercontent.com/NetworkStore/Mantap/main/backup"
 akbarvpnnnnnnnnn="raw.githubusercontent.com/NetworkStore/Mantap/main/websocket"
 # Link Hosting Kalian Untuk Ohp
 akbarvpnnnnnnnnnn="raw.githubusercontent.com/NetworkStore/Mantap/main/ohp"
+akbarvpnnnnnnnnnnn="raw.githubusercontent.com/NetworkStore/Mantap/main/vmess-ws"
 
 # Getting
 MYIP=$(wget -qO- ipinfo.io/ip);
