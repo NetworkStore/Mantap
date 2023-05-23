@@ -219,7 +219,7 @@ echo ""
 read -p " Select menu : " opt
 echo -e ""
 case $opt in
-1) clear ; add-ws ;;
+1) clear ; add-ssws ;;
 2) clear ; delws ;;
 3) clear ; renewws;;
 4) clear ; cekws ;;
