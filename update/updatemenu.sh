@@ -22,7 +22,6 @@ rm -rf setmenu
 rm -rf slowdnsmenu
 rm -rf running
 rm -rf cek-bandwidth
-rm -rf cek-bandwidth
 rm -rf vmessws-menu
 
 # download menu
