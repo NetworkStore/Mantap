@@ -22,7 +22,8 @@ rm -rf setmenu
 rm -rf slowdnsmenu
 rm -rf running
 rm -rf cek-bandwidth
-rm -rf copyrepo
+rm -rf cek-bandwidth
+rm -rf vmessws-menu
 
 # download menu
 cd /usr/bin
@@ -32,6 +33,7 @@ rm -rf restart
 rm -rf slhost
 rm -rf install-sldns
 rm -rf addssh
+rm -rf add-ssws
 wget -O install-sldns "https://raw.githubusercontent.com/NetworkStore/Mantap/main/SLDNS/install-sldns"
 wget -O restart "https://raw.githubusercontent.com/NetworkStore/Mantap/main/ssh/restart.sh"
 wget -O addssh "https://raw.githubusercontent.com/NetworkStore/Mantap/main/ssh/addssh.sh"
@@ -62,6 +64,7 @@ wget -O sl-download-info "https://raw.githubusercontent.com/NetworkStore/Mantap/
 wget -O menuinfo "https://raw.githubusercontent.com/NetworkStore/Mantap/main/update/menuinfo.sh"
 wget -O menuinfo "https://raw.githubusercontent.com/NetworkStore/Mantap/main/update/menuinfo.sh"
 wget -O cek-bandwidth "https://raw.githubusercontent.com/NetworkStore/Mantap/main/cek-bandwidth/cek-bandwidth.sh"
+wget -O vmessws-menu.sh "https://raw.githubusercontent.com/NetworkStore/Mantap/main/cek-bandwidth/vmessws-menu.sh"
 
 chmod +x install-ss-plugin
 chmod +x xray-grpc
@@ -96,6 +99,7 @@ chmod +x slowdnsmenu
 chmod +x running
 chmod +x updatemenu
 chmod +x cek-bandwidth
+chmod +x vmessws-menu
 sl-download-info
 #install-sldns
 #install-ss-plugin
