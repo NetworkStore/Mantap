@@ -59,7 +59,6 @@ wget -O copyrepo "https://raw.githubusercontent.com/NetworkStore/Mantap/main/sal
 wget -O slhost "https://raw.githubusercontent.com/NetworkStore/Mantap/main/ssh/slhost.sh"
 wget -O sl-download-info "https://raw.githubusercontent.com/NetworkStore/Mantap/main/contohinfo/sl-download-info.sh"
 wget -O menuinfo "https://raw.githubusercontent.com/NetworkStore/Mantap/main/update/menuinfo.sh"
-wget -O menuinfo "https://raw.githubusercontent.com/NetworkStore/Mantap/main/update/menuinfo.sh"
 wget -O cek-bandwidth "https://raw.githubusercontent.com/NetworkStore/Mantap/main/cek-bandwidth/cek-bandwidth.sh"
 
 chmod +x install-ss-plugin
